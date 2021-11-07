@@ -11,6 +11,9 @@ body {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
+iframe {
+  border-radius: 30px;
+}
 .flex-container {
   padding: 35px 14px 45px 182px;
   margin: 0px 7px 0px 12px;
