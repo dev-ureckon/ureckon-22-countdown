@@ -26,14 +26,14 @@ body {
 .flex-item1 {
   /* background: rgb(24, 25, 34); */
   padding: 5px;
-  width: 162px;
+  width: 200px;
   height: 80px;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 .flex-item2 {
   /* background: rgb(24, 25, 34); */
   padding: 5px;
-  width: 308px;
+  width: 306px;
   height: 80px;
   margin-top: 10px;
 }
@@ -41,11 +41,12 @@ body {
   padding: 5px;
   width: 296px;
   height: 80px;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 .countdown-container {
+  margin-top: -22px;
   font-family: Blanka;
-  font-size: 50px;
+  font-size: 58px;
   line-height: 0.4;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .section3 {
-  padding: 48px 347px 0px 266px;
+  padding: 52px 336px 0px 310px;
   display: flex;
   justify-content: space-evenly;
 }
