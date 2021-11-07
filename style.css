@@ -1,5 +1,11 @@
 /* this is css */
 @import "compass/css3";
+@import url('css/cabinet-grotesk.css');
+@font-face {
+  font-family:Blanka ;
+  src: url(css/Blanka_Countdown.otf);
+  format("opentype");
+}
 body {
   background: #21262e;
   color: #fff;
@@ -7,36 +13,58 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .flex-container {
-  padding: 0px 100px 0px 100px;
+  padding: 30px 100px 0px 100px;
   margin: 0px 10px 0px 10px;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .flex-item1 {
   /* background: rgb(24, 25, 34); */
   padding: 5px;
-  width: 200px;
+  width: 162px;
   height: 80px;
   margin-top: 10px;
 }
 .flex-item2 {
   /* background: rgb(24, 25, 34); */
   padding: 5px;
-  width: 300px;
+  width: 308px;
   height: 80px;
   margin-top: 10px;
 }
 .flex-item3 {
   padding: 5px;
-  width: 200px;
+  width: 325px;
   height: 80px;
   margin-top: 10px;
 }
+.countdown-container{
+  font-family: Blanka;
+  font-size: 50px;
+  line-height: 0.4;
+}
 
 .section2 {
-  padding: 100px 200px 0px 200px;
+  padding: 45px 200px 0px 200px;
   display: flex;
   justify-content: space-between;
 }
+
+.section3 {
+  padding: 72px 312px 0px 270px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section3>div{
+  letter-spacing: 2px;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 25px;
+}
+.follow{
+  align-self: center;
+  
+}
+
