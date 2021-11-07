@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .flex-container {
-  padding: 9px 14px 45px 182px;
+  padding: 35px 14px 45px 182px;
   margin: 0px 7px 0px 12px;
   list-style: none;
   display: flex;
@@ -40,7 +40,7 @@ body {
 }
 .flex-item3 {
   padding: 5px;
-  width: 325px;
+  width: 296px;
   height: 80px;
   margin-top: 10px;
 }
@@ -51,14 +51,14 @@ body {
 }
 
 .section2 {
-  padding: 40px 217px 0px 233px;
+  padding: 5px 217px 0px 233px;
 
   display: flex;
   justify-content: space-between;
 }
 
 .section3 {
-  padding: 142px 347px 0px 266px;
+  padding: 48px 347px 0px 266px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -70,4 +70,8 @@ body {
 }
 .follow {
   align-self: center;
+}
+
+a:link {
+  text-decoration: none;
 }
