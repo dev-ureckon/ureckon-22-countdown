@@ -17,15 +17,36 @@ body {
   max-width: 400px;
   height: auto;
 }
+@media (max-width: 768px) {
+  .responsive1 {
+    width: 42.33%;
+    max-width: 400px;
+    height: 3.1rem;
+    margin: auto -0.2 0 auto;
+  }
+}
 .responsive2 {
   width: 100%;
   max-width: 500px;
   height: auto;
 }
+@media (max-width: 768px) {
+  .responsive2 {
+    width: 100%;
+    max-width: 500px;
+    height: 3rem;
+    margin-top: 0.7rem;
+  }
+}
 .responsive3 {
   width: 33.33%;
   max-width: 400px;
   height: auto;
+}
+@media (max-width: 768px) {
+  .responsive3{
+    margin: auto auto 0 -0.5rem;
+  }
 }
 #sec1 {
   padding-inline-start: 6rem;
