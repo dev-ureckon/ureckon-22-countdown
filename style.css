@@ -35,6 +35,16 @@ body {
 iframe {
   border-radius: 30px;
 }
+.card-1 {
+  box-shadow: 0 1px 3px rgba(43, 43, 43, 0.479),
+    0 1px 2px rgba(39, 71, 131, 0.479);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(45, 40, 73, 0.25),
+    0 10px 10px rgba(106, 105, 189, 0.521);
+}
 
 #sec2 {
   padding: 60px;
