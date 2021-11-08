@@ -60,6 +60,9 @@ iframe {
   .countdown-container{
     font-size: 8vw;
   }
+  .iframe{
+    padding: 30px;
+  }
 }
 
 #sec3 {
