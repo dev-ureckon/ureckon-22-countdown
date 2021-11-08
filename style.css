@@ -56,6 +56,11 @@ iframe {
   font-size: 5vw;
   line-height: 3.8vw;
 }
+@media (max-width:768px){
+  .countdown-container{
+    font-size: 8vw;
+  }
+}
 
 #sec3 {
   justify-content: center;
