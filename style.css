@@ -35,6 +35,7 @@ body {
 iframe {
   border-radius: 30px;
 }
+
 .card-1 {
   box-shadow: 0 1px 3px rgba(43, 43, 43, 0.479),
     0 1px 2px rgba(39, 71, 131, 0.479);
@@ -56,12 +57,15 @@ iframe {
   font-size: 5vw;
   line-height: 3.8vw;
 }
-@media (max-width:768px){
-  .countdown-container{
-    font-size: 8vw;
+@media (max-width: 768px) {
+  .countdown-container {
+    font-size: 10vw;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
   }
-  .iframe{
-    padding: 30px;
+  iframe {
+    width: 19rem;
+    height: 15rem;
   }
 }
 
