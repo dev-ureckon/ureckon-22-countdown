@@ -14,16 +14,12 @@ main {
   height: 100%;
   width: 100%;
   position: relative;
-  overflow: hidden;
 }
 
 body {
   margin: 0;
   --color-text: #fcfcfc;
   --color-bg: #0c0c0c;
-  --color-link: #6b5537;
-  --color-link-hover: #fff;
-  --color-content-title-sub: #6b5537;
   color: var(--color-text);
   background-color: var(--color-bg);
 
@@ -31,12 +27,6 @@ body {
     Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  text-decoration: underline;
-  color: var(--color-link);
-  outline: none;
 }
 
 a:hover,
@@ -52,7 +42,7 @@ a:focus {
     transform: scale3d(0.5, 0.5, 1);
   }
 }
-
+/* 
 .message {
   position: relative;
   z-index: 100;
@@ -62,15 +52,15 @@ a:focus {
   padding: 1rem;
   font-size: 0.85rem;
   position: relative;
-}
+} */
 
-.no-select {
+/* .no-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} */
 
 .frame {
   padding: 3rem 5vw;
@@ -108,11 +98,11 @@ a:focus {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: calc(100vh - 13rem);
-  position: relative;
+  height: calc(100vh - 5rem);
+  position: absolute;
   align-items: center;
   justify-content: center;
-  max-height: 300px;
+  /* max-height: 300px; */
 }
 
 .grid {

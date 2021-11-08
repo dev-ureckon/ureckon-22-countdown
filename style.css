@@ -38,22 +38,29 @@ iframe {
 }
 
 .section2 {
-  padding: 5px 217px 0px 233px;
+  /* padding: 5px 217px 0px 233px; */
 
   display: flex;
   justify-content: space-between;
+}
+#sec2 {
+  padding: 60px;
 }
 .countdown-container {
   margin-top: -22px;
   font-family: Blanka;
   font-size: 58px;
-  line-height: 0.4;
+  line-height: 0.9;
 }
 
 .section3 {
-  padding: 52px 336px 0px 310px;
-  display: flex;
-  justify-content: space-evenly;
+  /* padding: 52px 336px 0px 310px; */
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+#sec3 {
+  justify-content: center;
 }
 
 .section3 > div {
