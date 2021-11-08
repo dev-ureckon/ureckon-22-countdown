@@ -8,6 +8,8 @@ main {
   height: 100%;
   width: 100%;
   position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -96,7 +98,7 @@ a:focus {
   position: absolute;
   align-items: center;
   justify-content: center;
-  /* max-height: 300px; */
+   max-height: 100vh; 
 }
 
 .grid {
