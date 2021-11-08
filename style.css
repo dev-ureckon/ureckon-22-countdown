@@ -32,10 +32,29 @@ body {
   padding-inline-end: 6rem;
   padding-top: 1.8rem;
 }
+@media (max-width: 768px) {
+  #sec1 {
+    padding-top: 1.8rem;
+    padding-right: 5rem;
+  }
+}
+
+#sec2 {
+  padding: 3rem;
+}
+.countdown-container {
+  margin-top: 2px;
+  padding: 1rem;
+  font-family: Blanka;
+  font-size: 5vw;
+  line-height: 3.8vw;
+}
 iframe {
   border-radius: 30px;
 }
-
+.frame1 {
+  padding-top: 1.2rem;
+}
 .card-1 {
   box-shadow: 0 1px 3px rgba(43, 43, 43, 0.479),
     0 1px 2px rgba(39, 71, 131, 0.479);
@@ -47,16 +66,6 @@ iframe {
     0 10px 10px rgba(106, 105, 189, 0.521);
 }
 
-#sec2 {
-  padding: 60px;
-}
-.countdown-container {
-  margin-top: 2px;
-  padding: 1rem;
-  font-family: Blanka;
-  font-size: 5vw;
-  line-height: 3.8vw;
-}
 @media (max-width: 768px) {
   .countdown-container {
     font-size: 10vw;
@@ -67,12 +76,18 @@ iframe {
     width: 19rem;
     height: 15rem;
   }
+  .frame1 {
+    padding-top: 10px;
+  }
+  #sec2 {
+    padding: 5px;
+  }
 }
 
 #sec3 {
   justify-content: center;
+  padding-top: 4rem;
 }
-
 .section3 > div {
   letter-spacing: 2px;
   font-family: "Cabinet Grotesk", sans-serif;
@@ -84,4 +99,10 @@ iframe {
 
 a:link {
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  #sec3 {
+    justify-content: center;
+    padding-top: 1rem;
+  }
 }
