@@ -1,166 +1,249 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
-    <link rel="shortcut icon" href=".\assets\favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <title>Ureckon 2022 | Coming Soon</title>
     <!-- stylesheets and references -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://api.fontshare.com/css?f[]=cabinet-grotesk@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bg.css">
-    <link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://api.fontshare.com/css?f[]=cabinet-grotesk@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bg.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css" />
     <!-- meta tags -->
-    <meta name="keywords"
-        content="hack club, clubs in kolkata, Hack Club uemk, coding, Hack Club, india, kolkata, computer science, Ureckon, UEM" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="keywords"
+      content="hack club, clubs in kolkata, Hack Club uemk, coding, Hack Club, india, kolkata, computer science, Ureckon, UEM"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-</head>
+  <body class="demo-1">
+    <main>
+      <!-- front contents -->
+      <div class="content">
+        <div class="wrapper">
+          <section class="section1">
+            <div class="container" id="sec1">
+              <div class="row d-flex justify-content-center">
+                <div
+                  class="col-md-4 col-sm-4 col-2 d-flex justify-content-center"
+                >
+                  <!-- width="165px" height="120px" -->
+                  <img
+                    class="img-responsive responsive1"
+                    src="./assets/images/logoUem.png"
+                    alt="uem logo"
+                  />
+                </div>
+                <div
+                  class="col-md-4 col-sm-4 col-2 d-flex justify-content-center"
+                >
+                  <!-- width="326px" height="90px" -->
+                  <img
+                    class="img-responsive responsive2"
+                    src="./assets/images/heading.png"
+                    alt="Header"
+                  />
+                </div>
+                <div
+                  class="col-md-4 col-sm-4 col-2 d-flex justify-content-center"
+                >
+                  <!-- width="112" height="122px" -->
+                  <img
+                    class="img-responsive responsive3"
+                    src="./assets/images/UreckonLogo.png"
+                    alt="uem logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
 
-<main>
+          <!-- section2 for counter and youtube frame -->
 
-    <body class="demo-1">
-
-        <!-- front contents -->
-        <div class="content">
-            <div class="wrapper">
-                <section class="section1">
-                    <div class="container" id="sec1">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-md-4 col-sm-4 col-2 d-flex justify-content-center">
-                                <!-- width="165px" height="120px" -->
-                                <img class="img-responsive responsive1" src=".\assets\logoUem.png" alt="uem logo">
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-2 d-flex justify-content-center">
-                                <!-- width="326px" height="90px" -->
-                                <img class="img-responsive responsive2" src=".\assets\heading.png" alt="Header">
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-2 d-flex justify-content-center">
-                                <!-- width="112" height="122px" -->
-                                <img class="img-responsive responsive3" src=".\assets\UreckonLogo.png" alt="uem logo">
-                            </div>
-                        </div>
+          <section class="section2">
+            <div>
+              <div
+                class="row text-center d-flex justify-content-center"
+                id="sec2"
+              >
+                <div
+                  class="
+                    col-md-6 col-sm-12 col-10
+                    d-flex
+                    justify-content-center
+                  "
+                >
+                  <div class="countdown-container">
+                    <div class="countdown-el months-c">
+                      <p class="big-text">
+                        <span id="months">0</span>&nbsp;&nbsp;&nbsp;Months
+                      </p>
                     </div>
-                </section>
+                    <div class="countdown-el days-c">
+                      <p class="big-text">
+                        <span id="days">0</span>&nbsp;&nbsp;&nbsp;Days
+                      </p>
+                    </div>
+                    <div class="countdown-el days-c">
+                      <p class="big-text" id="days">Remaining</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="
+                    col-md-6 col-sm-12 col-8
+                    d-flex
+                    justify-content-center
+                    frame1
+                  "
+                >
+                  <iframe
+                    class="card-1"
+                    width="460"
+                    height="259"
+                    src="https://www.youtube.com/embed/oxICyKA-TxI"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
 
+          <!-- section 3 for footer and links -->
 
-                <!-- section2 for counter and youtube frame -->
-
-                <section class="section2">
+          <section class="section3">
+            <div class="container-sm">
+              <div class="container-sm">
+                <div class="row d-flex justify-content-center" id="sec3">
+                  <div class="col-md-4 col-sm-10 col-10 text-center">
+                    <h1 class="follow">FOLLOW US ON</h1>
+                  </div>
+                  <div
+                    class="
+                      col-md-4 col-sm-12 col-10
+                      d-flex
+                      justify-content-center
+                    "
+                  >
                     <div>
-                        <div class="row text-center d-flex justify-content-center" id="sec2">
-                            <div class="col-md-6 col-sm-12 col-10 d-flex justify-content-center">
-                                <div class="countdown-container">
-                                    <div class="countdown-el months-c">
-                                        <p class="big-text"> <span id="months">0</span>&nbsp;&nbsp;&nbsp;Months</p>
-                                    </div>
-                                    <div class="countdown-el days-c">
-                                        <p class="big-text"><span id="days">0</span>&nbsp;&nbsp;&nbsp;Days</p>
-                                    </div>
-                                    <div class="countdown-el days-c">
-                                        <p class="big-text" id="days">Remaining</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12 col-8 d-flex justify-content-center frame1">
-                                <iframe class="card-1" width="460" height="259"
-                                    src="https://www.youtube.com/embed/oxICyKA-TxI" title="YouTube video player"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
+                      <a
+                        href="https://www.facebook.com/ureckon.uemk"
+                        style="display: inline-block; padding: 8px"
+                        target="_blank"
+                      >
+                        <img alt="Facebook" src="assets/icons/Facebook.svg" />
+                      </a>
+                      <a
+                        href="https://www.instagram.com/ureckon.uemk/"
+                        style="display: inline-block; padding: 8px"
+                        target="_blank"
+                      >
+                        <img alt="Instagram" src="assets/icons/Instagram.svg" />
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/company/ureckon/"
+                        style="display: inline-block; padding: 8px"
+                        target="_blank"
+                      >
+                        <img alt="LinkedIn" src="assets/icons/LinkedIn.svg" />
+                      </a>
+                      <a
+                        href="https://twitter.com/Ureckon_Uemk"
+                        style="display: inline-block; padding: 8px"
+                        target="_blank"
+                      >
+                        <img alt="Twitter" src="assets/icons/Twitter.svg" />
+                      </a>
+                      <a
+                        href="https://www.youtube.com/UreckonUEMKolkata"
+                        style="display: inline-block; padding: 8px"
+                        target="_blank"
+                      >
+                        <img alt="Youtube" src="assets/icons/Youtube.svg" />
+                      </a>
                     </div>
-
-                </section>
-
-                <!-- section 3 for footer and links -->
-
-                <section class="section3">
-                    <div class="container-sm">
-                    <div class="container-sm">
-                        <div class="row d-flex justify-content-center" id="sec3">
-                            <div class="col-md-4 col-sm-10 col-10 text-center">
-                                <h1 class="follow">FOLLOW US ON</h1>
-                            </div>
-                            <div class="col-md-4 col-sm-12 col-10 d-flex justify-content-center">
-                                <div>
-
-
-                                    <a href="https://www.facebook.com/ureckon.uemk"
-                                        style="display:inline-block;padding:8px" target="_blank">
-                                        <img alt="Facebook" src="css/icons/Facebook.svg">
-                                    </a>
-                                    <a href="https://www.instagram.com/ureckon.uemk/"
-                                        style="display:inline-block;padding:8px" target="_blank">
-                                        <img alt="Instagram" src="css/icons/Instagram.svg">
-                                    </a>
-                                    <a href="https://www.linkedin.com/company/ureckon/"
-                                        style="display:inline-block;padding:8px" target="_blank">
-                                        <img alt="LinkedIn" src="css/icons/LinkedIn.svg">
-                                    </a>
-                                    <a href="https://twitter.com/Ureckon_Uemk" style="display:inline-block;padding:8px"
-                                        target="_blank">
-                                        <img alt="Twitter" src="css/icons/Twitter.svg">
-                                    </a>
-                                    <a href="https://www.youtube.com/UreckonUEMKolkata"
-                                        style="display:inline-block;padding:8px" target="_blank">
-                                        <img alt="Youtube" src="css/icons/Youtube.svg">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                </section>
-
-
-
-
-
+                  </div>
+                </div>
+              </div>
             </div>
-
-
-            <!-- background grid structure -->
-            <div class="grid">
-                <div class="grid__item pos-1">
-                    <div class="grid__item-img" style="background-image:url(Assets/Coding.png);"></div>
-                </div>
-                <div class="grid__item pos-2">
-                    <div class="grid__item-img" style="background-image:url(Assets/Gaming.png);"></div>
-                </div>
-                <div class="grid__item pos-3">
-
-                    <div class="grid__item-img" style="background-image:url(Assets/Robotics.png);"></div>
-                </div>
-                <div class="grid__item pos-4">
-                    <div class="grid__item-img" style="background-image:url(Assets/Coding.png);"></div>
-                </div>
-                <div class="grid__item pos-5">
-                    <div class="grid__item-img" style="background-image:url(Assets/Gaming.png);"></div>
-                </div>
-                <div class="grid__item pos-7">
-                    <div class="grid__item-img" style="background-image:url(Assets/Coding.png);"></div>
-                </div>
-                <div class="grid__item pos-8">
-                    <div class="grid__item-img" style="background-image:url(Assets/Gaming.png);"></div>
-                </div>
-                <div class="grid__item pos-9">
-                    <div class="grid__item-img" style="background-image:url(Assets/Robotics.png);"></div>
-                </div>
-                <div class="grid__item pos-10">
-                    <div class="grid__item-img" style="background-image:url(Assets/Coding.png);"></div>
-                </div>
-            </div>
+          </section>
         </div>
-</main>
 
-<script src="script.js"></script>
-</body>
+        <!-- background grid structure -->
+        <div class="grid">
+          <div class="grid__item pos-1">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Coding.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-2">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Gaming.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-3">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Robotics.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-4">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Coding.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-5">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Gaming.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-7">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Coding.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-8">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Gaming.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-9">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Robotics.png)"
+            ></div>
+          </div>
+          <div class="grid__item pos-10">
+            <div
+              class="grid__item-img"
+              style="background-image: url(./assets/images/Coding.png)"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </main>
 
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>

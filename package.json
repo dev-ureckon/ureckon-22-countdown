@@ -1,0 +1,30 @@
+{
+  "name": "ureckon-22-countdown",
+  "version": "1.0.0",
+  "description": "Official site for URECKON Countdown",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-ureckon/ureckon-22-countdown.git"
+  },
+  "author": "URECKON Development Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-ureckon/ureckon-22-countdown/issues"
+  },
+  "homepage": "https://github.com/dev-ureckon/ureckon-22-countdown#readme",
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-remove-html-comments": "^1.0.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
