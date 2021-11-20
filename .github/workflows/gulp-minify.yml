@@ -1,0 +1,35 @@
+# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Build for Production
+
+on:
+  push:
+    branches:
+      - staging
+  workflow_dispatch:
+
+jobs:
+  createPullRequest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          npm ci
+          gulp
+      - name: Configure Git
+        run: |
+          git config --global user.email "dev.ureckon@gmail.com"
+          git config --global user.name "sudo-ureckon"
+      - name: Push to production
+        run: |
+          rm -r .git
+          cd build && git init
+          git add .
+          git commit -m "(CI) Added build"
+          git remote add origin https://ureckon-sudo:${TOKEN}@github.com/dev-ureckon/ureckon-22-countdown.git
+          git branch -M production
+          git push -u -f origin production
+        env:
+          TOKEN: ${{ secrets.TOKEN }}

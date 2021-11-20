@@ -1,8 +1,8 @@
 /* this is css */
-@import url("css/cabinet-grotesk.css");
+@import url("../fonts/cabinet-grotesk.css");
 @font-face {
   font-family: Blanka;
-  src: url(css/Blanka_Countdown.otf);
+  src: url("../fonts/Blanka_Countdown.otf");
   format: ("opentype");
 }
 body {
@@ -10,7 +10,6 @@ body {
   color: #fff;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-
 }
 .responsive1 {
   width: 42.33%;
@@ -45,7 +44,7 @@ body {
   height: auto;
 }
 @media (max-width: 768px) {
-  .responsive3{
+  .responsive3 {
     margin: auto auto 0 -0.5rem;
   }
 }
