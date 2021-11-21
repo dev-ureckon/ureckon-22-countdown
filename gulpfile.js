@@ -61,6 +61,10 @@ function copyFonts() {
     .pipe(gulp.dest("build/assets/fonts"));
 }
 
+function copyFavicon() {
+  return gulp.src("assets/favicon.ico").pipe(gulp.dest("build/assets/"));
+}
+
 export default gulp.parallel(
   minifyImages,
   minifyIcons,
@@ -68,5 +72,6 @@ export default gulp.parallel(
   minifyJS,
   minifyHTML,
   minifyFontsCSS,
-  copyFonts
+  copyFonts,
+  copyFavicon
 );
