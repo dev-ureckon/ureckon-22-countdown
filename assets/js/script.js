@@ -7,7 +7,7 @@ const daysLabelEl = document.getElementById("days-label");
 
 function countdown() {
   const delta =
-    new Date("Feb 19, 2022 09:00:00").getTime() - new Date().getTime();
+    new Date("Apr 2, 2022 09:00:00").getTime() - new Date().getTime();
 
   const months = Math.floor(delta / (1000 * 60 * 60 * 24 * 30));
   const days = Math.floor(
